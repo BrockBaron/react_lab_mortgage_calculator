@@ -1,14 +1,17 @@
-import React from 'react';
+import React, {useState} from 'react';
+import MortgageForm from '../components/MortgageForm';
+
 
 const MortgageContainer = () => {
-
+    const [mortgage, setMortgage] = useState(0)
 
 
 
 
 return (
     <>
-    <p>Mortgage Calculator</p>
+    <h1>Mortgage Calculator</h1>
+    <MortgageForm />
     </>
 )
 
